@@ -1,7 +1,7 @@
 # Kuduko-M-zik-Yap-m-OS-v3.0---Web-letim-Sistemi
 Kuduko OS 3.0
 Notlar, yer imleri, takvim notları ve ayarlar tarayıcıda saklanır. Dosyalar uygulaması bilgisayarınızdaki gerçek klasörlerle çalışır.
-
+Kullanıcı kuduko Şifre kuduko
 Kısayollar
 Alt+S başlat menüsü, Alt+Q kapat, Alt+M küçült, Alt+F Dosyalar, Alt+L oturumu kapat
 
