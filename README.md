@@ -18,3 +18,10 @@ NOT:
 - "Asistan AI" ve "Mesajlasma" uygulamalari Claude ortamina ozel (window.claude)
   oldugu icin exe icinde calismaz, "kullanilamiyor" yazar.
 - Dosyalar, Kamera, Ses Kaydi, Bluetooth, Muzik Calar normal calisir.
+
+GEMINI / GOOGLE ANAHTARLARI
+- Anahtarlar config.json icinde. Degistirmek icin o dosyayi duzenleyin.
+- patch-html.js, "Asistan AI" uygulamasini Gemini'ye baglar (build.bat ve npm komutlari otomatik calistirir).
+- Anahtarlar exe icinde okunabilir durumdadir. Google Cloud konsolunda anahtari kisitlayin.
+- Google anahtarini sayfada kullanmak icin: const k = await window.kuduko.googleKey();
+- Model adi config.json'daki gemini_model ile degisir.
