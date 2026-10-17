@@ -1,12 +1,20 @@
-# Kuduko-M-zik-Yap-m-OS-v3.0---Web-letim-Sistemi
-Kuduko OS 3.0
-Notlar, yer imleri, takvim notları ve ayarlar tarayıcıda saklanır. Dosyalar uygulaması bilgisayarınızdaki gerçek klasörlerle çalışır.
-Kullanıcı kuduko Şifre kuduko
-Kısayollar
-Alt+S başlat menüsü, Alt+Q kapat, Alt+M küçült, Alt+F Dosyalar, Alt+L oturumu kapat
+KUDUKO OS -> WINDOWS EXE
 
-Uygulamalar
-Hesap makinesi klavyeyle çalışır. Terminalde ok tuşları geçmişi gezer; help komutu listeyi verir. Müzik Edit: kes, fade, ses ayarla ve WAV kaydet. Kamera: fotoğraf ve video kaydı. Oyunlar: Yılan, XOX, Hafıza.
+1) Node.js kurulu degilse https://nodejs.org adresinden LTS surumunu kurun.
+2) Kuduko OS HTML dosyanizi bu klasore "index.html" adiyla koyun.
+3) (Istege bagli) 256x256 bir "icon.png" koyun. Yoksa build.bat icin
+   package.json icindeki "icon" satirlarini silin.
+4) build.bat dosyasina cift tiklayin.
+5) "dist" klasorunde:
+   - "Kuduko OS 1.0.0.exe"        -> kurulumsuz, tek dosya (portable)
+   - "Kuduko OS Setup 1.0.0.exe"  -> kurulum sihirbazi
+   Sadece portable istiyorsaniz "npm run build", kurulum icin "npm run build:setup".
 
-Windows tarzı
-Masaüstüne ve görev çubuğu simgelerine sağ tıklayın. Pencereyi ekran kenarına sürükleyip yaslayın. Saate tıklayınca takvim, ağ/ses simgelerine tıklayınca hızlı ayarlar açılır.
+Denemek icin (exe olusturmadan): npm install, sonra npm start
+
+Kisayollar: F11 tam ekran, F12 gelistirici araclari.
+
+NOT:
+- "Asistan AI" ve "Mesajlasma" uygulamalari Claude ortamina ozel (window.claude)
+  oldugu icin exe icinde calismaz, "kullanilamiyor" yazar.
+- Dosyalar, Kamera, Ses Kaydi, Bluetooth, Muzik Calar normal calisir.
